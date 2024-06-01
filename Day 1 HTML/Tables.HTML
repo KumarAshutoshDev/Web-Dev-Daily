@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <link rel="stylesheet" href="for-table.css">
+    <!-- for the visibility of rowspan and colspan we are adding css  -->
+</head>
+<body>
+    <table>
+        <caption>Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Ashutosh</td>
+                <td>19</td>
+                <td rowspan="2">New Delhi</td>
+                <!-- rowspan= how many row should it take  -->
+            </tr>
+            <tr>
+                <td colspan="2">Ravi</td>
+                <td>28</td>
+                <!-- colspan= how many column should it take  -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>footer</td>
+                <td>20</td>
+                <td>footer</td>
+            </tr>
+        </tfoot>
+       
+    </table>
+</body>
+
+</html>
