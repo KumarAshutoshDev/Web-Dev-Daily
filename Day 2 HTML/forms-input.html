@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page describes how to use input tags and Forms">
+    <title>Forms</title>
+</head>
+
+<body>
+    <Form action="post">
+        <label for="name">NAME</label>
+        <input type="text" id="name" placeholder="Enter Your Name " required autofocus>
+        <div>
+            <input type="radio" id="male" name="Gender" value="male" >
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">female</label>
+            <!-- here we add name value gender in both so only one can be opted for -->
+        </div>
+        <div id="education">
+            <label for="education ">Education Qualifications</label>
+            <input type="checkbox" name="education" id="10th">
+            <label for="10th">10th </label>
+            <input type="checkbox" name="education" id="12th">
+            <label for="12th">12th </label>
+            <input type="checkbox" name="education" id="B.Tech">
+            <label for="B.Tech">B.Tech</label>
+        </div>
+        <div>
+            <label for="Comment">Comment</label>
+            <textarea name="Comment" id="Comment" placeholder="Write a review" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="Apple">Apple</option>
+                <option value="Apple">Mango</option>
+                <option value="Apple">Lichi</option>
+                <option value="Apple">Cherry</option>
+            </select>
+        </div>
+    </Form>
+</body>
+
+</html>
