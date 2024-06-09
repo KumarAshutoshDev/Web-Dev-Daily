@@ -1,0 +1,50 @@
+/* These are the m0st used selectors */
+/* Element selector */
+h1{
+    background-color: teal;
+}
+/* class selector */
+.div{
+    color: red;
+    background-color: black;
+}
+/* id slector */
+#another-div{
+    color: white;
+    background-color: blueviolet;
+}
+/* Child Selector */
+/* should be direct child  */
+div > p{
+    background-color: aqua;
+}
+/* descendant selector */
+/* doesnt matter if direct child or not  */
+div p {
+    background-color: red;
+    color: bisque;
+}
+/* universal selectro */
+/* selects everything */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* pseudo slectors */
+a:visited{
+    background-color: red;
+}
+a:link{
+    background-color: cyan;
+}
+a:hover{
+    background-color: hotpink;
+}
+a:active{
+    background-color: bisque;
+}
+/* first child pseudo selector */
+/* jha jha p apne parent ka first child hai wha wha yeh apply hoga */
+p:first-child{
+    background-color: brown;
+}
