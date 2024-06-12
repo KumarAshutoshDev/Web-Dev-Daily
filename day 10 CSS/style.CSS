@@ -1,0 +1,21 @@
+/* CSS Bos Model  */
+*{
+    margin: 0;
+}
+.box {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: border-box;
+    margin: 30px;
+    height: 50px;
+}
+.box2{
+    background-color: crimson;
+    color: palevioletred;
+    padding: 20px;
+    border: 10px solid pink;
+    margin: 20px;
+    box-sizing: border-box;
+}
