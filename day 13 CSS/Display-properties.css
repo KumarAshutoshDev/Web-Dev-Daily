@@ -1,0 +1,11 @@
+.box{
+    border: 2px solid blueviolet;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+*{
+    border: 0px;
+    margin: 0px;
+}
